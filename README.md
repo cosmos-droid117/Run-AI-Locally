@@ -15,9 +15,12 @@
 
 **1. Install Ollama** (the easiest way to run local models): <https://ollama.com/download>
 
-**2. Find the right model for your computer:**
+**2. Download this repository:**
 
-Download [`script.exe`](script.exe) from this repository and run it. That's it — it checks your hardware and gives you the exact command to run, for example:
+Click the green **Code** button at the top of this page → **Download ZIP**.
+Extract the ZIP, open the folder script, and run `script.exe`.
+
+It checks your hardware and gives you the exact command to run, for example:
 
 ```bash
 ollama run qwen3:8b
